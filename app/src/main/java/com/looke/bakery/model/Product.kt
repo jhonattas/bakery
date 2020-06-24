@@ -3,7 +3,7 @@ package com.looke.bakery.model
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class Product {
+open class Product {
 
     @SerializedName("id")
     @Expose
@@ -27,7 +27,6 @@ class Product {
     override fun toString(): String {
         return "Product(id=$id, type=$type, name=$name, ppu=$ppu, batters=$batters, toppings=$topping)"
     }
-
 
 
 }

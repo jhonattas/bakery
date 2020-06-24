@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Looke Bakery</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_products">Products</string>
+    <string name="title_batters">Batters</string>
+    <string name="title_toppings">Toppings</string>
 </resources>
